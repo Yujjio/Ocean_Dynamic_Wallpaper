@@ -1,0 +1,19 @@
+html, canvas {
+	background-color: #17293a;
+	overflow: hidden;
+}
+#shallow {
+	z-index: -1;
+	position: absolute;
+}
+#check {
+	color: violet;
+}
+#message {
+	color: red;
+}
+.message {
+	display: none;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 8px;
+}
